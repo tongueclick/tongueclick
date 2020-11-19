@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width" />
 <meta name="Keywords" content="error, 404">
 <meta name="Description" content="Error 404 - not found.">
-<meta name="DC.language" content="en"
+<meta name="DC.language" content="en">
 <style type="text/css" media="screen">
 @font-face {
     font-family: 'sofia pro light';
@@ -21,19 +21,68 @@
 }
 body {
 	background-color: #FFF;
-}
-body,td,th {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 5%;
+	padding-right: 5%;
 	font-size: 16px;
 	font-family: "sofia pro light";
 	font-style: normal;
 	font-weight: 400;
 	color: #000;
+}
+h1 {
 	text-align: center;
 }
+article {
+	text-indent: 20px;
+	text-align: left;
+}
+table {
+    width: 100%;
+}
+td {
+    vertical-align: top;
+}
+.d1 {
+    text-align: left;
+}
+.d2 {
+    text-align: center;
+}
+.d3 {
+    text-align: right;
+}
+.d1,
+.d3 a {
+	color: rgba(153,153,153,1);
+}
+@media only screen and (max-width: 800px) {
+
+   body,
+   td { 
+      font-size: 14px; 
+   }
+
+}
+@media only screen and (max-width: 500px) {
+
+   body,
+   td { 
+      font-size: 12px; 
+   }
+
+}
+</style>
 </style>
 </head>
 
 <body>
-	<p>Error 404 - not found. The page you requested does not exist!</p>
+	<div>
+		<p style="text-align: center;">
+        Error 404 - not found. The page you requested does not exist!
+        </p>
+	</div>
 </body>
 </html>

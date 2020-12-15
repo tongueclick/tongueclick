@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'sofia pro light';
+    src: url('../../fonts/SofiaProLight-webfont.eot');
+    src: url('../../fonts/SofiaProLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/SofiaProLight-webfont.woff') format('woff'),
+         url('../../fonts/SofiaProLight-webfont.ttf') format('truetype'),
+         url('../../fonts/SofiaProLight-webfont.svg#sofia pro light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'salsa';
+    src: url('../../fonts/salsa-regular-webfont.eot');
+    src: url('../../fonts/salsa-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/salsa-regular-webfont.woff') format('woff'),
+         url('../../fonts/Salsa-Regular.ttf') format('truetype'),
+         url('../../fonts/salsa-regular-webfont.svg#salsa') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+iframe {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+video {
+	background-color: transparent;
+	outline: none;
+	/*object-fit: cover;*/
+}
+tc {
+	font-family: "salsa", sans-serif;
+}
+say {
+	font-family: "salsa", sans-serif;
+}
+tongue {
+	font-family: "salsa", sans-serif;
+	color: #85c6e9;
+	text-shadow: 0px 0px 1.5px #000;
+	-webkit-font-smoothing: antialiased;
+
+}
+click {
+	font-family: "salsa", sans-serif;
+	color: #d9d900;
+	text-shadow: 0px 0px 1.5px #000;
+	-webkit-font-smoothing: antialiased;
+}
+hr.hr {
+	margin-bottom: 20px;
+}
+hr.hrHide {
+	display: none;
+	padding-bottom: 5px;
+	background-image: -moz-linear-gradient(top, #008dad, #007b9d);
+	background-image: -webkit-linear-gradient(top, #008dad, #007b9d);
+	background-image: -ms-linear-gradient(top, #008dad, #007b9d);
+	background-image: linear-gradient(top, #008dad, #007b9d);
+
+}
+@media screen and (max-width: 980px) {
+	hr.hrHide {
+		display: block;
+	}
+}
+sig {
+	color: rgba(204,204,204,1);
+	font-style: normal;
+	white-space: nowrap;
+}
+
+/* Basic */
+
+	.button, sig, a, #copyright,
+	body, h1, h2, h3, h4, strong, p, time, author {
+		font-family: "sofia pro light", sans-serif;
+		text-transform: none !important;
+	}
+		
+	h3 {
+		font-family: "salsa", sans-serif;
+		text-transform: none !important;
+	}
+
+	iframe.top {
+		margin: 4px 0 2.25em 0;
+	}
+
+	video.top {
+		margin: 4px 0 2.25em 0;
+	}
+
+/* Reusable */
+
+		article.blog-post .todays-date {
+			position: absolute;
+			top: 0;
+			right: 0;
+			height: 32px;
+			line-height: 24px;
+			padding-left: 40px;
+			background: none;
+		}
+
+/* Header */
+
+		/*#header nav {
+			text-transform: none;
+		}*/
+
+/* Banner */
+
+	#banner-wrapper {
+		background:linear-gradient(0deg, rgba(102,102,102,.5),
+		rgba(102,102,102,.5)),url(images/heaven.jpg) no-repeat center;
+		background-size:cover;
+	}
+
+	#banner {
+		background-image: none;
+		box-shadow :none;
+	}
+
+		#banner span {
+			font-size: 1.4em;
+		}
+
+/* Footer */
+
+	#footer-wrapper {
+		padding: 1em 0;
+	}
+
+/* Copyright */
+
+	#copyright {
+		text-align: center;
+		color: #A6A88F;
+		border-top: none;
+		padding: 0;
+		margin: 0;
+	}
+
+		#copyright a {
+			color: #A6A88F;
+			text-decoration: none;
+		}
+
+/* Large */
+
+	@media screen and (max-width: 1280px) {
+
+		/* Reusable */
+
+		/* Header */
+
+		/* Banner */
+
+				#banner span {
+					font-size: 1.3em;
+				}
+
+		/* Footer */
+
+		/* Copyright */
+
+	}
+
+/* Small */
+
+	@media screen and (max-width: 980px) {
+
+				#banner span {
+					font-size: 1.1em;
+				}
+	}
+
+	@media screen and (max-width: 736px) {
+
+		/* Reusable */
+
+			article.blog-post .todays-date {
+				display: block;
+				position: relative;
+				top: -0.5em;
+				margin: 0 0 0.5em 0;
+				padding-left: 0px;
+			}
+
+		/* Banner */
+
+			#banner-wrapper {
+				background:linear-gradient(0deg, rgba(102,102,102,.5),
+				rgba(102,102,102,.5)),url(images/heaven.jpg) no-repeat center;
+				background-size:cover;
+				padding: 20px 0;
+			}
+
+			#banner {
+				box-shadow: none;
+			}
+
+				#banner span {
+					font-size: 0.9em;
+				}
+
+	}

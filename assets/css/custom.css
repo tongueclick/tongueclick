@@ -127,6 +127,7 @@ sig {
 
 		#banner span {
 			font-size: 1.4em;
+			opacity: 1;
 		}
 
 /* Footer */

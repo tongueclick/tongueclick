@@ -1,4 +1,6 @@
 User-agent: *
 Disallow: /fonts/
+Disallow: /assets/
+Disallow: /images/
 Disallow: /benson/
 Disallow: 404.html

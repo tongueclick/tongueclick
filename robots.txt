@@ -4,3 +4,5 @@ Disallow: /assets/
 Disallow: /images/
 Disallow: /benson/
 Disallow: 404.html
+
+Sitemap: https://tongue.click/sitemap.xml

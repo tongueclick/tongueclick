@@ -50,12 +50,15 @@ click {
 	text-shadow: 0px 0px 1.5px #000;
 	-webkit-font-smoothing: antialiased;
 }
+.todays-date {
+	color: rgba(204,204,204,1);
+}
 hr.hr {
 	margin-bottom: 20px;
 }
 hr.hrHide {
 	display: none;
-	padding-bottom: 5px;
+	padding-bottom: 2px;
 	background-image: -moz-linear-gradient(top, #008dad, #007b9d);
 	background-image: -webkit-linear-gradient(top, #008dad, #007b9d);
 	background-image: -ms-linear-gradient(top, #008dad, #007b9d);
@@ -80,7 +83,7 @@ sig {
 		font-family: "sofia pro light", sans-serif;
 		text-transform: none !important;
 	}
-		
+
 	h3 {
 		font-family: "salsa", sans-serif;
 		text-transform: none !important;
@@ -92,6 +95,14 @@ sig {
 
 	video.top {
 		margin: 4px 0 2.25em 0;
+	}
+
+	#header-wrapper {
+		/*border: rgba(255,255,255,1) thick solid;*/
+		/*border-bottom: rgba(255,255,255,1) thick solid;*/
+	}
+	body {
+		background-color: transparent;
 	}
 
 /* Reusable */
@@ -115,15 +126,25 @@ sig {
 /* Banner */
 
 	#banner-wrapper {
-		background:linear-gradient(0deg, rgba(102,102,102,.5),
-		rgba(102,102,102,.5)),url(images/heaven.jpg) no-repeat center;
-		background-size:cover;
+		/*background:linear-gradient(0deg, rgba(102,102,102,.5),
+		rgba(102,102,102,.5)),url(images/example.jpg) no-repeat center;*/
+		background: url(images/caterpillar.jpg) no-repeat center;
+		background-size: cover;
+		background-color: rgba(255,255,255,1);
 	}
 
 	#banner {
 		background-image: none;
 		box-shadow :none;
 	}
+
+		#banner h1 {
+			font-size: 3.3em;
+			color: #fff;
+			text-align: center;
+			letter-spacing: -2px;
+			margin: 0;
+		}
 
 		#banner span {
 			font-size: 1.4em;
@@ -134,20 +155,26 @@ sig {
 
 	#footer-wrapper {
 		padding: 1em 0;
+		background-image: -moz-linear-gradient(top, #008dad, #007b9d);
+		background-image: -webkit-linear-gradient(top, #008dad, #007b9d);
+		background-image: -ms-linear-gradient(top, #008dad, #007b9d);
+		background-image: linear-gradient(top, #008dad, #007b9d);
+		background-color: #007b9d;
+		/*border: rgba(255,255,255,1) thick solid;*/
 	}
 
 /* Copyright */
 
 	#copyright {
 		text-align: center;
-		color: #A6A88F;
+		color: rgba(204,204,204,1);
 		border-top: none;
 		padding: 0;
 		margin: 0;
 	}
 
 		#copyright a {
-			color: #A6A88F;
+			color: rgba(204,204,204,1);
 			text-decoration: none;
 		}
 
@@ -160,6 +187,10 @@ sig {
 		/* Header */
 
 		/* Banner */
+
+				#banner h1 {
+					font-size: 3em;
+				}
 
 				#banner span {
 					font-size: 1.3em;
@@ -175,12 +206,28 @@ sig {
 
 	@media screen and (max-width: 980px) {
 
+				#banner h1 {
+					font-size: 2.5em;
+				}
+
 				#banner span {
 					font-size: 1.1em;
 				}
+
+		/* Page Wrapper */
+
+			#page-wrapper {
+				padding-top: 0px;
+			}
 	}
 
 	@media screen and (max-width: 736px) {
+
+		/* Basic */
+
+			h1 {
+				font-size: 1.4em;
+			}
 
 		/* Reusable */
 
@@ -195,15 +242,22 @@ sig {
 		/* Banner */
 
 			#banner-wrapper {
-				background:linear-gradient(0deg, rgba(102,102,102,.5),
-				rgba(102,102,102,.5)),url(images/heaven.jpg) no-repeat center;
-				background-size:cover;
+				/*background:linear-gradient(0deg, rgba(102,102,102,.5),
+				rgba(102,102,102,.5)),url(images/example.jpg) no-repeat center;*/
+				background:	url(images/caterpillar.jpg) no-repeat center;
+				background-size: cover;
 				padding: 20px 0;
 			}
 
 			#banner {
 				box-shadow: none;
 			}
+
+				#banner h1 {
+					font-size: 2em;
+					letter-spacing: -2px;
+					line-height: 1.25em;
+				}
 
 				#banner span {
 					font-size: 0.9em;

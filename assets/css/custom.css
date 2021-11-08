@@ -83,6 +83,10 @@ sig {
 		font-family: "sofia pro light", sans-serif;
 		text-transform: none !important;
 	}
+	
+	/*body p {
+		font-size: 20px;
+	}*/
 
 	h3 {
 		font-family: "salsa", sans-serif;
@@ -128,7 +132,7 @@ sig {
 	#banner-wrapper {
 		/*background:linear-gradient(0deg, rgba(102,102,102,.5),
 		rgba(102,102,102,.5)),url(images/example.jpg) no-repeat center;*/
-		background: url(images/caterpillar.jpg) no-repeat center;
+		background: url(images/pluggedin.jpg) no-repeat center;
 		background-size: cover;
 		background-color: rgba(255,255,255,1);
 	}
@@ -228,6 +232,10 @@ sig {
 			h1 {
 				font-size: 1.4em;
 			}
+			
+			/*body p {
+				font-size: 19px;
+			}*/
 
 		/* Reusable */
 
@@ -244,7 +252,7 @@ sig {
 			#banner-wrapper {
 				/*background:linear-gradient(0deg, rgba(102,102,102,.5),
 				rgba(102,102,102,.5)),url(images/example.jpg) no-repeat center;*/
-				background:	url(images/caterpillar.jpg) no-repeat center;
+				background:	url(images/pluggedin.jpg) no-repeat center;
 				background-size: cover;
 				padding: 20px 0;
 			}

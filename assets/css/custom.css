@@ -132,7 +132,7 @@ sig {
 	#banner-wrapper {
 		/*background:linear-gradient(0deg, rgba(102,102,102,.5),
 		rgba(102,102,102,.5)),url(images/example.jpg) no-repeat center;*/
-		background: url(images/pluggedin.jpg) no-repeat center;
+		background: url(images/main.jpg) no-repeat center;
 		background-size: cover;
 		background-color: rgba(255,255,255,1);
 	}
@@ -252,7 +252,7 @@ sig {
 			#banner-wrapper {
 				/*background:linear-gradient(0deg, rgba(102,102,102,.5),
 				rgba(102,102,102,.5)),url(images/example.jpg) no-repeat center;*/
-				background:	url(images/pluggedin.jpg) no-repeat center;
+				background:	url(images/main.jpg) no-repeat center;
 				background-size: cover;
 				padding: 20px 0;
 			}

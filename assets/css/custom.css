@@ -31,6 +31,12 @@ video {
 	outline: none;
 	/*object-fit: cover;*/
 }
+.title-enhance {
+	display: inline-block;
+	/*padding: 20%;*/
+	border-radius: 5px;
+	background: rgba(153,153,153,0.6);
+}
 tc {
 	font-family: "salsa", sans-serif;
 }
